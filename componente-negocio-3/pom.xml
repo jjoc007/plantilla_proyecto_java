@@ -2,6 +2,23 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.com.occidente.componente.negocio3</groupId>
   <artifactId>componente-negocio-3</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Componente de negocio 3</name>
+  
+  <properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>co.com.occidente.data</groupId>
+			<artifactId>test-data</artifactId>
+			<version>1.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+	</dependencies>
+  
+  
 </project>
